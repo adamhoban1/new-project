@@ -1,0 +1,16 @@
+$testimagesize: 30%;
+$coloroftext: #ffffff;
+$backcolor: #000000;
+
+.textoverimage {
+    position: absolute;
+    top: 70%;
+    bottom: 20%;
+    left: $testimagesize;
+    right: $testimagesize;
+    background-color: $backcolor;
+    color: $coloroftext;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+  }
